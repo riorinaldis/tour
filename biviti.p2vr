@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig version="6.0.1" rev="17227">
+  <tour>
+    <panorama>
+      <id>node1</id>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>/Users/riorinaldi/Downloads/el31auf-times-square-nyc-at-night.jpeg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan>
+          <start>-161.24</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>-3.6</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>120</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2021-08-03T14:52:53</defaultviewtimestamp>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2020-11-05T21:06:21</capturedatetime>
+        <latitude>40.756919</latitude>
+        <longitude>-73.986225</longitude>
+        <altitude>17.37</altitude>
+        <datetime>05/11/20 21.06</datetime>
+        <tags>Downloads</tags>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-138.08</pan>
+            <tilt>26.1</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <title>Hallo</title>
+          <description>
+
+&lt;button type="button" class="btn btn-primary">Primary&lt;/button></description>
+          <linktype>info</linktype>
+          <linksubtype>videoyoutube</linksubtype>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-165.98</pan>
+            <tilt>19.83</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>URKL</title>
+          <description>dkJHfkdjzkfj</description>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>./tenant/page.html</url>
+          <autoplace>0</autoplace>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <animation>
+        <sequence/>
+      </animation>
+    </panorama>
+  </tour>
+  <panorama>
+    <id>master</id>
+    <input>
+      <patch/>
+    </input>
+    <viewingparameter>
+      <pan/>
+      <tilt/>
+      <fov/>
+      <flyinstart/>
+    </viewingparameter>
+    <userdata/>
+    <floorplans/>
+    <hotspots/>
+    <output>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>output/index.html</filename>
+          <template>$d/normal custom.ggt</template>
+          <values>
+            <value id="css"/>
+            <value id="gginfo">false</value>
+            <value id="htmltitle">$(upt)</value>
+            <value id="jsxml">false</value>
+            <value id="nocssfont">false</value>
+            <value id="parseanchor">false</value>
+          </values>
+        </html>
+        <facequality/>
+        <transition/>
+        <autorotate/>
+        <soundstransition/>
+        <flyintransition/>
+        <hotspottext/>
+        <hotspotstyle/>
+        <tilesize>1824</tilesize>
+        <filename>output/pano.xml</filename>
+        <hideaboutbox>1</hideaboutbox>
+        <fullscreencontext>0</fullscreencontext>
+        <skinfile>bskins.ggsk</skinfile>
+        <skinconfiguration>
+          <value id="opt_autohide">true</value>
+          <value id="opt_url">true</value>
+        </skinconfiguration>
+        <skintablesconfiguration/>
+        <assets>/Users/riorinaldi/Downloads/Logos/instagram-fill.png</assets>
+        <assets>/Users/riorinaldi/Downloads/Logos/whatsapp-fill.png</assets>
+      </htmlcss>
+    </output>
+    <streetview/>
+    <streetviewproject/>
+    <sounds/>
+    <animation>
+      <title>Animation01</title>
+    </animation>
+  </panorama>
+</pano2vrconfig>
