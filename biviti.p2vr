@@ -73,26 +73,6 @@
           <linksubtype>videoyoutube</linksubtype>
           <autoplace>0</autoplace>
         </hotspot>
-        <hotspot>
-          <position>
-            <pan>-165.98</pan>
-            <tilt>19.83</tilt>
-          </position>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point02</id>
-          <title>URKL</title>
-          <description>dkJHfkdjzkfj</description>
-          <linktype>url</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>./tenant/page.html</url>
-          <autoplace>0</autoplace>
-        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
