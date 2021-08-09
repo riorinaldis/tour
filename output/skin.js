@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: bskins.ggsk
-// Generated Mon Aug 9 14:01:09 2021
+// Generated Mon Aug 9 19:12:29 2021
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -1724,6 +1724,7 @@ function pano2vrSkin(player,base) {
 		el.appendChild(elo);
 		el.ggId="ht_url_image";
 		el.ggDx=0;
+		el.ggDy=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_svg ";
@@ -1733,7 +1734,7 @@ function pano2vrSkin(player,base) {
 		hs+='height : 32px;';
 		hs+='left : -10000px;';
 		hs+='position : absolute;';
-		hs+='top : -16px;';
+		hs+='top : -10000px;';
 		hs+='visibility : hidden;';
 		hs+='width : 32px;';
 		hs+='pointer-events:auto;';
@@ -1814,6 +1815,9 @@ function pano2vrSkin(player,base) {
 				var pw=this.parentNode.clientWidth;
 				var w=this.offsetWidth;
 					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
+				var ph=this.parentNode.clientHeight;
+				var h=this.offsetHeight;
+					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
 			}
 		}
 		me._ht_url.appendChild(me._ht_url_image);
@@ -1857,6 +1861,7 @@ function pano2vrSkin(player,base) {
 		el.appendChild(elo);
 		el.ggId="ht_url_image_newpage";
 		el.ggDx=0;
+		el.ggDy=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_svg ";
@@ -1866,7 +1871,7 @@ function pano2vrSkin(player,base) {
 		hs+='height : 32px;';
 		hs+='left : -10000px;';
 		hs+='position : absolute;';
-		hs+='top : -16px;';
+		hs+='top : -10000px;';
 		hs+='visibility : hidden;';
 		hs+='width : 32px;';
 		hs+='pointer-events:auto;';
@@ -1931,6 +1936,9 @@ function pano2vrSkin(player,base) {
 				var pw=this.parentNode.clientWidth;
 				var w=this.offsetWidth;
 					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
+				var ph=this.parentNode.clientHeight;
+				var h=this.offsetHeight;
+					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
 			}
 		}
 		me._ht_url.appendChild(me._ht_url_image_newpage);
